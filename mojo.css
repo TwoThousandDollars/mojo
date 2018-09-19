@@ -1,0 +1,16 @@
+.sidebar {
+    display: inline-block;
+}
+
+.main-content {
+    display: inline-block;
+}
+
+.main-content * {
+    display: inherit;
+    margin-left: 5px;
+}
+
+form {
+    display:block;
+}
