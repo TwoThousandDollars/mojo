@@ -1,9 +1,30 @@
 .sidebar {
     display: inline-block;
+    max-width: 10%;
+}
+
+body {
+  background-color: grey;
+}
+
+article {
+  display: inline-block;
+}
+
+ol li {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1400px;
+  background-color: white;
 }
 
 .main-content {
+  margin-left: 10px;
     display: inline-block;
+    max-width: 75%;
+    vertical-align: top;
 }
 
 .main-content * {
@@ -12,5 +33,19 @@
 }
 
 form {
-    display:block;
+    display:inline-block;
+}
+
+form input {
+  width: 100%;
+}
+
+.col1 {
+  max-width:40%;
+  display: inline-block;
+}
+
+.col2, .col3{
+  max-width: 25%;
+  display: inline-block;
 }
